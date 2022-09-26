@@ -624,7 +624,7 @@ class gui():
     def window(): 
         global root
         root = tk.Tk()
-        root.title("Tig Ol Bitties")
+        root.title("Window")
         champLabel = tk.Label(root, text = "Select Your Champion by Writing their name!")
         champLabel.pack()
         #canvas1 = tk.Canvas(window, width = 400, height = 300)
